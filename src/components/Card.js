@@ -1,11 +1,12 @@
 import React from 'react'
-
+import './Card.css'
 const Card = props => (
     <div className='Card'>
-        <img src={props.img}/>
+        
         <h3>{props.title}</h3>
         <p>{props.text}</p>
+        <img src={props.image.default} />
     </div>
 )
 
-export default``
+export default Card
